@@ -40,6 +40,10 @@ def add_entry(name, phone_number, email)
       end
   end
 
+  def nuke
+    @entries = []
+  end
+
   def binary_search(name)
 
      lower = 0
